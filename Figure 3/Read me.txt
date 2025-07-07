@@ -1,0 +1,22 @@
+5 steps to replicate our results:
+
+1) Run "Code_FIcurve_extract_Etype" to obtain standardized electrophysiological data.
+
+2) Run "Code_FIcurve_statisticforCollectingdata"   to collect the parameters of AP waveform.
+
+3) Run "Code_FiringPattern_forCollectingdata"   to collect the parameters of firing pattern.
+
+4) Run "Clustering_tSNE.R" to run PCA based on all the parameters (except for Vm), and get  cluster information  in  a csv file
+
+5) Run "Code_FIcurve_statistic_Etype" to Compared the AP papameters across different clusters, and get box plot.
+
+
+Dependent m fucntion:
+"AP_Statistic_new","eventedgefinder","peakfinder"
+
+
+For the intrinsic parameters:
+1) Run "Code_RinTau_extract_HERE" to obtain standardized electrophysiological data.
+
+2) Run "Code_RinTau_statistic_HERE" to get box plot.
+
